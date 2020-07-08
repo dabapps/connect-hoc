@@ -1,5 +1,5 @@
 {
-  "name": "connect-hoc",
+  "name": "@dabapps/connect-hoc",
   "version": "0.0.0",
   "description": "Types for react-redux connect that work inside HOCs",
   "main": "index.d.ts",
