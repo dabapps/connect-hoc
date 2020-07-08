@@ -1,0 +1,48 @@
+{
+  "name": "connect-hoc",
+  "version": "0.0.0",
+  "description": "Types for react-redux connect that work inside HOCs",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json",
+    "lint": "eslint '**/*.{ts,tsx,js,jsx}'",
+    "prettier-check": "prettier --check '*'",
+    "prettier": "prettier --write '*'",
+    "test": "npm run prettier-check && npm run lint && npm run typecheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabapps/connect-hoc.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "connect",
+    "hoc",
+    "higher",
+    "order",
+    "component",
+    "types",
+    "typescript"
+  ],
+  "author": "DabApps",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/dabapps/connect-hoc/issues"
+  },
+  "homepage": "https://github.com/dabapps/connect-hoc#readme",
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-redux": "^6.0.14",
+    "react": "^16.13.1",
+    "react-redux": "^6.0.1",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-dabapps": "^6.0.4",
+    "prettier": "^2.0.5",
+    "webpack": "^4.43.0"
+  }
+}
