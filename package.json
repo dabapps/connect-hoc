@@ -2,6 +2,9 @@
   "name": "@dabapps/connect-hoc",
   "version": "0.0.0",
   "description": "Types for react-redux connect that work inside HOCs",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.d.ts",
   "types": "index.d.ts",
   "scripts": {
